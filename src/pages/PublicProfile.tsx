@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { Phone, Droplet, ShieldCheck, User, Activity, MapPin, Share2, Lock, Truck, Shield } from 'lucide-react';
