@@ -51,7 +51,7 @@ const PublicProfile = () => {
             <div className="bg-blue-100 p-4 rounded-full mb-3 group-hover:bg-blue-600 transition-colors">
               <Truck size={40} className="text-blue-600 group-hover:text-white" />
             </div>
-            <span className="font-black uppercase tracking-tighter text-gray-800">Ambulancier / Médical</span>
+            <span className="font-black uppercase tracking-tighter text-gray-800">Ambulancier / Corps médical</span>
           </button>
           <button onClick={() => setUserType('police')} className="flex flex-col items-center justify-center bg-white p-8 rounded-[2rem] border-2 border-transparent hover:border-red-600 shadow-xl shadow-gray-200 transition-all group active:scale-95">
             <div className="bg-red-100 p-4 rounded-full mb-3 group-hover:bg-red-600 transition-colors">
@@ -120,7 +120,7 @@ const PublicProfile = () => {
         <div className="bg-white p-6 rounded-[2rem] shadow-lg border-l-8 border-red-600">
           <div className="flex items-center gap-2 mb-4 text-red-600">
             <HeartPulse size={20} />
-            <h3 className="font-black uppercase text-sm tracking-widest">Données Vitales</h3>
+            <h3 className="font-black uppercase text-sm tracking-widest">Données d'urgence</h3>
           </div>
           
           <div className="flex justify-between items-center bg-red-50 p-4 rounded-2xl mb-4">
