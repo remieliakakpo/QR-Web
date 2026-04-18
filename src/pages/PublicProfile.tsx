@@ -82,7 +82,7 @@ const PublicProfile = () => {
             className="w-full text-center text-3xl font-bold p-6 border-2 border-gray-100 bg-gray-50 rounded-3xl mb-4 outline-none focus:border-gray-300 transition-all"
             placeholder="••••••"
           />
-          {authError && <p className="text-red-600 text-xs font-bold mb-4 uppercase">Code invalide pour cette unité</p>}
+          {authError && <p className="text-red-600 text-xs font-bold mb-4 uppercase">Code invalide</p>}
           <button
             onClick={verifierCode}
             className={`w-full py-5 rounded-3xl font-black text-white shadow-xl transition active:scale-95 ${userType === 'ambulance' ? 'bg-blue-600 shadow-blue-200' : 'bg-red-600 shadow-red-200'}`}
