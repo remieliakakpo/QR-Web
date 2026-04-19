@@ -176,7 +176,7 @@ const PublicProfile = () => {
             {loading ? <div style={s.spinner} className="spinner" /> : 'DÉVERROUILLER'}
           </button>
 
-          <p style={s.codeHint}>Ex : AMBU1818 · POL1717 · POMP2626</p>
+          <p style={s.codeHint}>Ex : SEMO2000 · GEND4550 · KOBA2026</p>
         </div>
       </div>
     );
@@ -199,7 +199,7 @@ const PublicProfile = () => {
 
         <div style={s.headerContent}>
           <div style={s.ficheLabel}>
-            <AlertTriangle size={13} color="#fbbf24" />
+            <AlertTriangle size={16} color="#fbbf24" />
             <span>FICHE D'URGENCE SAFELIFE</span>
           </div>
 
@@ -238,7 +238,7 @@ const PublicProfile = () => {
         <div style={s.card} className="slide-up" data-delay="1">
           <div style={s.cardHeader}>
             <HeartPulse size={18} color="#dc2626" />
-            <h3 style={s.cardTitle}>Données médicales critiques</h3>
+            <h3 style={s.cardTitle}>Autres données médicales</h3>
           </div>
 
           {medical?.disabilities && medical.disabilities !== 'Aucun' && (
